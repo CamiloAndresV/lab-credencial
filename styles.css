@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*ocupa toda la altura de la pantalla*/
+}
+
+main {
+    background-color: gray;
+    flex: 1 /*contenido de main cresca y empuje al footer */
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+header {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#enlace {
+    text-decoration: none;
+    color: black;
+}
+
+
