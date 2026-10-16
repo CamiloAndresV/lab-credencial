@@ -119,11 +119,12 @@ main {
     text-align: center;
     margin-top: 20px;
     font-size: 15px;
-    color: #264d9c;
+    color: #334155;
     font-weight: bold;
     font-style: italic;
     border-top: 1px solid #000;
     padding-top: 10px;
+    font-size: 12px;
 }
 
 #firma {
@@ -138,13 +139,4 @@ img {
 /* 2. Hover de las imágenes e íconos */
 img:hover {
     transform: scale(1.15);
-}
-
-
-.footer-cred p {
-    font-size: 12px;
-    color: #334155;
-    font-weight: 600;
-    font-style: italic;
-    line-height: 1.4;
 }
