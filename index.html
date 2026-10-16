@@ -3,23 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
-    </style> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Credencial Web</title>
 </head>
 <body>
     <header class="encabezado">
         <h1>Credencial Web</h1>
-        <a href="#credencial" id="enlace">Credencial</a>
     </header>
+
     <main>
-        <div id="credencial">
-            
-        </div>
+        <article id="credencial">
+            <header>
+                <img src="img/firmacd.png" alt="Firma" id="firma">
+                <img src="img/col.png" alt="BanderaCol " id="bandera">
+                <p><strong>Full-Stack developer</strong></p>
+            </header>
+
+            <div class="content-cred">
+                <figure class="foto-prin">
+                    <img src="img/fotoprin.jpg" alt="FotoPrincipal" id="imgprin">
+                    <figcaption>ONLINE</figcaption>
+                </figure>
+                <div class="informacion-cred">
+                    <div class="insignia">
+                        <i class="fa-brands fa-bluesky fa-float fa-lg" style="color: rgb(255, 215, 0);"></i>
+                    </div>
+                    <div class="info-derecha">
+                        <div class="campo">
+                            <small class="etiqueta">Nombres:</small> 
+                            <p class="valor">Camilo Andres</p>
+                        </div>
+                        <div class="campo">
+                            <small class="etiqueta">Apellidos:</small>
+                            <p class="valor">Ospina Villa</p>
+                        </div>
+                        <div class="campo">
+                            <small class="etiqueta">Ciudad:</small>
+                            <p class="valor">Santa Bárbara (Antioquia)</p>
+                        </div>
+                        <div class="campo">
+                            <small class="etiqueta">Correo:</small>
+                            <p class="valor">camilo.ospina.dev@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-extra">
+                        <img src="img/vscode.webp" alt="tecnologiafav" id="hr">
+                        <p>Jugar Micro <i class="fa-solid fa-futbol fa-spin" style="color: rgb(0, 0, 0);"></i></p>
+                        <a href="https://github.com/CamiloAndresV" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-lg fa-jello" style="color: rgb(0, 0, 0);"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer-cred">
+                <p>No se trata de cuántas veces caes, sino de cuánto aprendes, cuánto cambias y quién decides ser cada vez que te levantas.</p>
+            </footer>
+        </article>
     </main>
-    <footer>
+
+    <footer class="pie-page">
         <p>© 2026 Credencial Web. Proyecto de clase.</p>
     </footer>
 </body>

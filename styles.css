@@ -1,37 +1,130 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-html, body {
-    height: 100%;
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /*ocupa toda la altura de la pantalla*/
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.encabezado, .pie-page {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: #2D3C5B;
 }
 
 main {
-    background-color: gray;
-    flex: 1 /*contenido de main cresca y empuje al footer */
+    min-height: 100vh; /*ocupa toda la altura de la pantalla*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-footer {
+#credencial {
+    width: 470px;
+    padding: 20px;
+    border: 3px solid #2D3C5B;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(12, 12, 12, 0.781);
+    position: relative;
+}
+
+#credencial header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+.content-cred {
+    display: flex;
+    gap: 15px;
+}
+
+.info-extra {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.foto-prin {
+    position: relative;
+}
+
+.foto-prin figcaption {
+    position: absolute;
+    left: 4px;
+    bottom: 10px;
+    border-radius: 10px;
+    background-color: #36d307;
+    padding: 2px 5px;
+    font-size: 10px;
+    color: #fff9f9;
+}
+
+.informacion-cred .insignia {
+    position: absolute;
+    right: 23px;
+}
+
+#imgprin {
+    width: 130px;
+    height: 140px;
+    border-radius: 10%;
+}
+
+.campo {
+    display: flex;
+    gap: 10px;
+}
+
+.campo small {
+    font-size: 11px;
+    color: #080808;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.campo p {
+    font-weight: bold;
+    color: #264d9c;
+}
+
+.info-derecha {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-extra p {
+    font-weight: bold;
+    color: #264d9c;
+}
+
+.footer-cred {
     text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #264d9c;
+    font-weight: bold;
+    font-style: italic;
+    border-top: 1px solid #000;
+    padding-top: 10px;
 }
 
-
-
-header {
-    background-color: aquamarine;
-    text-align: center;
+#firma {
+    height: 50px;
+    zoom: 1.1;
 }
 
-#enlace {
-    text-decoration: none;
-    color: black;
+img {
+    height: 20px;
 }
-
 
